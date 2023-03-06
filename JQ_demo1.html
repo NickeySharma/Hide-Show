@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  </script>
+        <script type="text/javascript" language="javascript">
+          $(function() {
+            $("p").css("background-color","lightblue");
+            $("p").css("color","purple");
+            $("p").css("text-align","center");
+            $("h2").css("color","white");
+          }
+          )
+          $(function(){
+            $("#hide").click(function(){
+                $("div").hide(5000);});
+            $("#show").click(function(){
+                $("div").show(1500);
+            });   
+          })
+        </script>
+    </head>
+    <body bgcolor="black">
+        <p>Hello there :)</p>
+        <p>Have some patience...</p>
+        <p>You'll achieve all your goals!</p>
+        <h2>The Hide & Show button is for the below given box.</h2>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <div style="height:350px;width:400px;">
+         <p>Every day, think as you wake up, today I am fortunate to be alive, I have a precious human life, I am not going to waste it. I am going to use all my energies to develop myself, to expand my heart out to others; to achieve enlightenment for the benefit of all beings. I am going to have kind thoughts towards others, I am not going to get angry or think badly about others. I am going to benefit others as much as I can.</p>
+        </div>
+    </body>
+</html>
